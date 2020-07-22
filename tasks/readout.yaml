@@ -21,5 +21,4 @@ command:
   arguments:
     - "{{ readout_cfg_uri }}"
   value: >-
-    cd /root/alibuild && eval `alienv load Readout/latest Control-OCCPlugin/latest` &&
-    readout.exe
+    /root/alibuild/startDevReadout.sh
